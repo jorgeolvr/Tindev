@@ -1,5 +1,10 @@
+import React from 'react'
+import { YellowBox } from 'react-native'
 
-import React from 'react';
+YellowBox.ignoreWarnings([
+  'Unrecognized WebSocket',
+  'perform a React state'
+])
 
 import Routes from './routes'
 
