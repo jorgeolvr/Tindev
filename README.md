@@ -1,5 +1,5 @@
-# Comando para iniciar o backend
+# backend
 yarn dev
 
-# Comando para iniciar o mobile
+# mobile
 yarn react-native run-ios
