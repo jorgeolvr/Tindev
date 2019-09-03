@@ -25,7 +25,7 @@ git clone https://github.com/jorgeolvr/tindev.git
 - [Axios](https://www.npmjs.com/package/axios)
 - [Socket.io Client](https://socket.io/docs/client-api/)
 
-# Mobile
+## Mobile
 - [React Native](https://facebook.github.io/react-native/)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Socket.io Client](https://socket.io/docs/client-api/)
