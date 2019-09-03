@@ -19,7 +19,7 @@ git clone https://github.com/jorgeolvr/tindev.git
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - [Socket.io](https://socket.io/)
 
-## FrontEnd
+## Frontend
 
 - [React.js](https://pt-br.reactjs.org/)
 - [Axios](https://www.npmjs.com/package/axios)
