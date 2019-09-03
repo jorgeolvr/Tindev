@@ -36,11 +36,21 @@ Crie uma conta no <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a
 ```
 mongoose.connect('mongodb+srv://<user>:<password>@cluster0-cmkt2.mongodb.net/<database>?retryWrites=true&w=majority', { useNewUrlParser: true });
 ```
-## Dentro das pastas (frontend, backend e mobile) rode:
+
+## Dentro das pastas (frontend e backend) rode:
 ```
 yarn install
 ```
 ```
 yarn start
 ```
+
+## Dentro da pasta (mobile) rode:
+```
+yarn install
+```
+```
+yarn react-native run-ios ou yarn react-native run-android 
+```
+
 Provavelmente, irá aparecer uma notificação para alterar a porta do React para diferente de 3000 ou algo do tipo. Ambos precisam rodar em portas diferentes.<br><br>
