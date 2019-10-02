@@ -49,7 +49,7 @@ mongoose.connect('mongodb+srv://<user>:<password>@cluster0-cmkt2.mongodb.net/<da
 ## Inicialização da aplicação
 O *yarn* foi utilizado como gerenciador de pacotes nesse projeto. Para isso é necessário instalar todas as dependências antes prosseguir:
 
-### Dentro das pastas *frontend e backend*
+### Dentro das pastas *frontend* e *backend*
 Se for necessário rodar em ambiente de desenvolvimento, execute o comando abaixo para utilizar o *nodemon*:
 ```
 yarn install && yarn dev
@@ -60,11 +60,11 @@ yarn install && yarn start
 ```
 
 ### Dentro da pasta *mobile*
-Para usar em um simulador do iOS execute:
+Para usar em um simulador do **iOS** execute:
 ```
 yarn install && yarn react-native run-ios
 ```
-Se desejar executar em simulador android:
+Se desejar executar em simulador **android**:
 ```
 yarn install && yarn react-native run-android 
 ```
