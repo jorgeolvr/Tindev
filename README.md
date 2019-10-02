@@ -13,25 +13,25 @@ git clone https://github.com/jorgeolvr/tindev.git
 As seguintes bibliotecas foram utilizadas na implementação do projeto:
 
 ### Backend
-- [Express](https://www.npmjs.com/package/express) (Framework projetado para criar aplicativos da Web e APIs)
-- [cors Package](https://www.npmjs.com/package/cors) (Define meios para um servidor permitir que seus recursos sejam acessados por uma aplicação de domínio diferente)
-- [Mongoose](https://mongoosejs.com/) (Biblioteca do Node.js que proporciona uma solução baseada em esquemas para modelar os dados)
-- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Serviço de DBaaS *Banco de Dados como Serviço* oferecido pela MongoDB)
-- [Socket.io](https://socket.io/) (Biblioteca que permite comunicação bidirecional em tempo real entre clientes da web e servidores)
-- [Nodemon](https://nodemon.io/) (Utilitário que irá monitorar as alterações nos arquivos e reiniciar automaticamente o servidor)
+- [Express](https://www.npmjs.com/package/express) - Framework projetado para criar aplicativos da Web e APIs
+- [cors Package](https://www.npmjs.com/package/cors) - Permite que os recursos sejam acessados por uma aplicação de domínio diferente
+- [Mongoose](https://mongoosejs.com/) - Biblioteca do Node.js que proporciona uma solução baseada em esquemas para modelar os dados
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Serviço de DBaaS (*Banco de Dados como Serviço*) oferecido pela MongoDB
+- [Socket.io](https://socket.io/) - Biblioteca que permite comunicação bidirecional em tempo real entre clientes da web e servidores
+- [Nodemon](https://nodemon.io/) - Utilitário que irá monitorar as alterações nos arquivos e reiniciar automaticamente o servidor
 
 ### Frontend
-- [React.js](https://pt-br.reactjs.org/) (Framework JavaScript de código aberto com foco em criar interfaces de usuário em páginas web)
-- [Axios](https://www.npmjs.com/package/axios) (Cliente HTTP para realizar requisições Ajax)
-- [Socket.io Client](https://socket.io/docs/client-api/) (Biblioteca usada no lado do cliente para conectar ao Socket do servidor)
+- [React.js](https://pt-br.reactjs.org/) - Framework JavaScript de código aberto com foco em criar interfaces de usuário em páginas web
+- [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP para realizar requisições Ajax
+- [Socket.io Client](https://socket.io/docs/client-api/) - Biblioteca usada no lado do cliente para conectar ao Socket do servidor
 
 ### Mobile
-- [React Native](https://facebook.github.io/react-native/) (Framework JavaScript para desenvolver aplicativos de forma nativa)
-- [Axios](https://www.npmjs.com/package/axios) (Cliente HTTP para realizar requisições Ajax)
-- [Socket.io Client](https://socket.io/docs/client-api/) (Biblioteca usada no lado do cliente para conectar ao Socket do servidor)
+- [React Native](https://facebook.github.io/react-native/) - Framework JavaScript para desenvolver aplicativos de forma nativa
+- [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP para realizar requisições Ajax
+- [Socket.io Client](https://socket.io/docs/client-api/) - Biblioteca usada no lado do cliente para conectar ao Socket do servidor
 
 ## Configurar MongoDB<br>
-Crie uma conta no <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a>, copie a URL e cole no arquivo de conexão(backend/src/server.js) para que fique no seguinte formato:<br>
+Crie uma conta no <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a>, copie a URL e cole no arquivo de conexão (*backend/src/server.js*) para que fique no seguinte formato:<br>
 ```
 mongoose.connect('mongodb+srv://<user>:<password>@cluster0-cmkt2.mongodb.net/<database>?retryWrites=true&w=majority', { useNewUrlParser: true });
 ```
