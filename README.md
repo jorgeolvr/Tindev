@@ -18,6 +18,7 @@ As seguintes bibliotecas foram utilizadas na implementação do projeto:
 - [Mongoose](https://mongoosejs.com/) (Biblioteca do Node.js que proporciona uma solução baseada em esquemas para modelar os dados)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (Serviço de DBaaS *Banco de Dados como Serviço* oferecido pela MongoDB)
 - [Socket.io](https://socket.io/) (Biblioteca que permite comunicação bidirecional em tempo real entre clientes da web e servidores)
+- [Nodemon](https://nodemon.io/) (Utilitário que irá monitorar as alterações nos arquivos e reiniciar automaticamente o servidor)
 
 ### Frontend
 - [React.js](https://pt-br.reactjs.org/) (Framework JavaScript de código aberto com foco em criar interfaces de usuário em páginas web)
@@ -36,27 +37,33 @@ mongoose.connect('mongodb+srv://<user>:<password>@cluster0-cmkt2.mongodb.net/<da
 ```
 ## Endpoints da API REST
 
-- **<code>GET</code>devs**
-- **<code>GET</code>devs/all**
-- **<code>GET</code>devs/:id**
-- **<code>POST</code>devs**
-- **<code>POST</code>devs/:id/likes**
-- **<code>POST</code>devs/:id/dislikes**
-- **<code>DELETE</code>devs/:id**
+- **<code>GET</code> devs**
+- **<code>GET</code> devs/all**
+- **<code>GET</code> devs/:id**
+- **<code>POST</code> devs**
+- **<code>POST</code> devs/:id/likes**
+- **<code>POST</code> devs/:id/dislikes**
+- **<code>DELETE</code> devs/:id**
 
 ## Inicialização da aplicação
-### Dentro das pastas *frontend e backend* rode:
+O *yarn* foi utilizado como gerenciador de pacotes nesse projeto. Para isso é necessário instalar todas as dependências antes prosseguir.
+
+### Dentro das pastas *frontend e backend*:
+Se for necessário rodar em ambiente de desenvolvimento, execute o comando abaixo para utilizar o *nodemon*
+```
+yarn install && yarn dev
+```
+Senão, execute o seguinte comando
 ```
 yarn install && yarn start
 ```
 
-### Dentro da pasta *mobile* rode:
-
-Para usar em um simulador do iOS
+### Dentro da pasta *mobile*:
+Para usar em um simulador do iOS execute
 ```
 yarn install && yarn react-native run-ios
 ```
-ou se desejar executar em simulador de android...
+Se desejar executar em simulador android 
 ```
 yarn install && yarn react-native run-android 
 ```
