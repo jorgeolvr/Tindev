@@ -68,3 +68,4 @@ Se desejar executar em simulador **android**:
 ```
 yarn install && yarn react-native run-android 
 ```
+**Start coding!**
