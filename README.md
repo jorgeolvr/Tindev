@@ -39,16 +39,14 @@ mongoose.connect('mongodb+srv://<user>:<password>@cluster0-cmkt2.mongodb.net/<da
 
 ### Dentro das pastas (frontend e backend) rode:
 ```
-yarn install
-```
-```
-yarn start
+yarn install && yarn start
 ```
 
 ### Dentro da pasta (mobile) rode:
 ```
-yarn install
+yarn install && yarn react-native run-ios
 ```
+ou
 ```
-yarn react-native run-ios ou yarn react-native run-android 
+yarrn install && yarn react-native run-android 
 ```
